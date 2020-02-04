@@ -1,0 +1,85 @@
+.d-flex {
+  display: flex !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.flex-column {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+/* ---New css--- */
+
+.filterSelect .search-box-ak {
+  height: 52px;
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  background-color: transparent;
+  padding: 10px 40px;
+  color: #17130d;
+}
+
+.filterSelect label.label {
+  display: block;
+  font-size: 12px;
+  font-family: AmplitudeTF;
+  line-height: 18px;
+  color: #6d6e71;
+  letter-spacing: 0;
+  padding: 0;
+}
+
+.filterSelect .btn-group-selectbox button.btn-selectbox {
+    padding: 15px 20px;
+    padding-right: 100px;
+    height: 52px;
+}
+
+.filterSelect .btn-selectbox:after, .filter-date-time .select-container::after {
+    font-family: "Jpmicons";
+    font-style: normal;
+    font-weight: 400;
+    color: #aca6a2;
+    content: '\e000';
+    margin: 0 0 0 0.625rem;
+    background-image: none;
+    overflow: visible;
+    top: 16px;
+}
+
+.filterSelect button {
+    border: 1px solid #c3c3c3;
+}
+
+/* .filterSelect .search-box-yelp {
+  height: 52px;
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  background-color: transparent;
+  padding: 10px 20px;
+} */
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 768px) {
+  .d-flex {
+      display: inline !important;
+  }
+}
